@@ -14,13 +14,14 @@ interface ExpertiseCardProps {
   accentColor: string;
 }
 
-const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
+const ExpertiseCard = ({ icon, num, title, description, accentColor }: ExpertiseCardProps) => {
+// const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
   // Icons for bullet points
-  const bulletIcons = [
-    <FaLightbulb key={num} className="w-4 h-4" />,
-    <FaRegChartBar key={num} className="w-4 h-4" />,
-    <HiOutlineCurrencyDollar key={num} className="w-4 h-4" />,
-  ];
+  // const bulletIcons = [
+  //   <FaLightbulb key={num} className="w-4 h-4" />,
+  //   <FaRegChartBar key={num} className="w-4 h-4" />,
+  //   <HiOutlineCurrencyDollar key={num} className="w-4 h-4" />,
+  // ];
   
   return (
     <div className="backdrop-blur-sm border border-gray-300 rounded-2xl p-8 
