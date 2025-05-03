@@ -29,7 +29,7 @@
     --accent: var(--accent);
     --primary: var(--primary);
   }
-}
+} 
 
 body {
   background: var(--background);
