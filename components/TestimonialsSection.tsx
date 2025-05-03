@@ -1,13 +1,15 @@
 'use client';
 
 import { Star } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+
 
 export default function TestimonialsSection() {
   const testimonials = [
     {
       name: "Alex P.",
       title: "Startup Founder",
-      quote: " His ability to think creatively, strategically and identify new opportunities for   revenue has been a tremendous asset to our team.",
+      quote: "His ability to think creatively, strategically and identify new opportunities for   revenue has been a tremendous asset to our team.",
       initial: "A",
       rating: 5
     },
@@ -59,7 +61,7 @@ export default function TestimonialsSection() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                 <div className="flex items-center">
 
-                  <div className="relative">
+                  {/* <div className="relative">
                     <div className="absolute -inset-1 bg-[#3399ff]/80 rounded-full blur-sm opacity-70"></div>
                     <div className="w-10 h-10 rounded-full overflow-hidden relative bgsecondary">
                       <div className="w-full h-full flex items-center justify-center">
@@ -68,7 +70,14 @@ export default function TestimonialsSection() {
                         </span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
+
+                  <Avatar className="w-12 h-12">
+                    <AvatarImage src="https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369991.png" alt="User avatar" />
+                    {/* <AvatarImage src="https://github.com/shadcn.png" alt="User avatar" /> */}
+                    <AvatarFallback>AV</AvatarFallback>
+                  </Avatar>
+
 
                   <div className="ml-4">
                     <h4 className="font-semibold text-gray-700">{testimonial.name}</h4>
@@ -84,7 +93,7 @@ export default function TestimonialsSection() {
               </div>
 
               <p className="text-gray-500 text-lg relative z-10">
-              &quot;{testimonial.quote}&quot;
+                &quot;{testimonial.quote}&quot;
               </p>
             </div>
           ))}
