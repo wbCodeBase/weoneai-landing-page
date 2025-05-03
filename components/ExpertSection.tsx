@@ -27,36 +27,36 @@ export default function ExpertSection() {
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-bl from-[#3399ff]/20 to-transparent rounded-full filter blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
             
             <h3 className="text-2xl font-bold mb-6 text-white flex items-center">
-              <FaMedal className="mr-3 text-[#3399ff]" /> Professional Background
+              <FaMedal className="mr-3 text-[#3399ff]" /> Our Method
             </h3>
             
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-green-400 mr-3 mt-1">✓</span>
                 <div className="flex items-center">
-                  <FaGraduationCap className="text-gray-400 mr-2" />
-                  <span className="text-gray-200">MBA from Top-tier Business School</span>
+                  {/* <FaGraduationCap className="text-gray-400 mr-2" /> */}
+                  <span className="text-gray-200">We clarify your biggest revenue or profit challenge</span>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-3 mt-1">✓</span>
                 <div className="flex items-center">
-                  <FaBriefcase className="text-gray-400 mr-2" />
-                  <span className="text-gray-200">10+ Years Industry Experience</span>
+                  {/* <FaBriefcase className="text-gray-400 mr-2" /> */}
+                  <span className="text-gray-200">I audit the hidden blockers and underused opportunities</span>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-3 mt-1">✓</span>
                 <div className="flex items-center">
-                  <FaUsers className="text-gray-400 mr-2" />
-                  <span className="text-gray-200">100+ Businesses Transformed</span>
+                  {/* <FaUsers className="text-gray-400 mr-2" /> */}
+                  <span className="text-gray-200">Using my 10+ growth levers, I draft your custom strategy</span>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-3 mt-1">✓</span>
                 <div className="flex items-center">
-                  <FaStar className="text-gray-400 mr-2" />
-                  <span className="text-gray-200">98% Client Satisfaction Rate</span>
+                  {/* <FaStar className="text-gray-400 mr-2" /> */}
+                  <span className="text-gray-200">You get a clear roadmap—built for action</span>
                 </div>
               </li>
             </ul>

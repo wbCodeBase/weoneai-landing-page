@@ -1,14 +1,5 @@
 'use client'
 
-// export default function Home() {
-//   return (
-// <>
-// Hey
-// </>
-//   );
-// }
-
-
 import { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -21,7 +12,7 @@ import SignUpForm from '@/components/SignUpForm';
 
 export default function Home() {
   // const [scrollY, setScrollY] = useState(0);
-
+ 
   useEffect(() => {
     // Improved reveal animations on scroll with more dynamic behavior
     const checkReveal = () => {

@@ -92,7 +92,7 @@ export default function CtaSection() {
             <div className="text-center">
               <div className="flex justify-center items-center flex-wrap gap-6 mb-6">
                 <a
-                  href="https://calendly.com/"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block"
@@ -118,7 +118,7 @@ export default function CtaSection() {
                 >
                   <Button
                     variant="default"
-                    className="cursor-pointer px-5 sm:px-7 py-6 md:py-7 hover:bg-blue-400 bg-indigo-400 text-white rounded-2xl font-semibold text-base btn-cta group w-full"
+                    className="cursor-pointer px-5 sm:px-7 py-6 md:py-7 hover:bg-blue-400 bg-indigo-400 text-white rounded-xl font-semibold text-base btn-cta group w-full"
                   >
                     <span className="flex items-center justify-center gap-3 btn-content">
                       <svg

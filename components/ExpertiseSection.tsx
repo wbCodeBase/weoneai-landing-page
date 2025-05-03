@@ -34,7 +34,7 @@ const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColo
       <div className="relative">
         <div className={`absolute inset-0 bg-gradient-to-r ${accentColor.replace('opacity-', '')} blur-lg opacity-40 rounded-full 
                         group-hover:opacity-70 transition-all duration-700 animate-pulse`}></div>
-        <div className={`flex items-center justify-center w-16 h-16 rounded-full mb-6 bg-gradient-to-r ${accentColor.replace('opacity-', '')} p-0.5 
+        <div className={`flex items-center justify-center w-12 h-12 rounded-full mb-6 bg-gradient-to-r ${accentColor.replace('opacity-', '')} p-0.5 
                        relative shadow-lg group-hover:shadow-xl transition-all duration-500 z-10`}>
           <div className="bgsecondary/90 bg-white w-full h-full rounded-full flex items-center justify-center group-hover:bgsecondary/70 transition-all duration-300">
             <div className={`text-transparent bg-clip-text bg-gradient-to-r ${accentColor.replace('opacity-', '')} 
@@ -59,7 +59,7 @@ const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColo
         {bulletPoints.map((point, index) => (
           <li key={index} className="flex items-center gap-3 group/item">
             <div className={`flex items-center justify-center p-1.5 rounded-full bg-gradient-to-r ${accentColor.replace('opacity-', '')} 
-                            opacity-80 group-hover/item:opacity-100 transition-all duration-300 transform group-hover/item:scale-110`}>
+                            opacity-80 group-hover/item:opacity-100 text-white transition-all duration-300 transform group-hover/item:scale-110`}>
               {bulletIcons[index % bulletIcons.length]}
             </div>
             <span className="text-sm text-gray-500 transition-colors duration-300">{point}</span>
@@ -70,12 +70,19 @@ const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColo
   );
 };
 
+
+
+ 
+
+
+
+
 export default function ExpertiseSection() {
   const expertiseAreas = [
     {
       icon: <FaChartLine className="w-6 h-6 animate-pulse" />,
-      title: "Revenue Growth Strategy",
-      description: "Data-driven strategies to increase your revenue streams and market share. Specialized in digital transformation and monetization strategies for content creators.",
+      title: "Revenue Innovation",
+      description: "Identifying/ designing new income streams, ancillary services, and product offerings and many more.",
       bulletPoints: [
         "Market analysis & positioning",
         "Revenue stream diversification",
@@ -85,23 +92,23 @@ export default function ExpertiseSection() {
     },
     {
       icon: <GiRocket className="w-6 h-6 animate-pulse" />,
-      title: "Business Scaling",
-      description: "Transform your operations for sustainable growth. Perfect for SMBs looking to expand their market presence and streamline processes.",
+      title: "Profit Optimization",
+      description: "Maximizing returns and efficiency from existing operations, pricing models, customer base, assets and more.",
       bulletPoints: [
-        "Operational efficiency",
-        "Market expansion",
-        "Resource optimization"
+        "KPI optimization",
+        "Process automation",
+        "Cost reduction"
       ],
       accentColor: "from-[#3399ff] to-[#660099] opacity-",
     },
     {
       icon: <SiSimpleanalytics className="w-6 h-6 animate-pulse" />,
-      title: "Performance Optimization",
-      description: "Maximize your business efficiency and ROI. Ideal for established businesses looking to improve their bottom line.",
+      title: "Sales Innovation",
+      description: "Designing new strategies and channels to effectively sell existing offerings and drive the adoption of new revenue streams.",
       bulletPoints: [
-        "KPI optimization",
-        "Process automation",
-        "Cost reduction"
+        "Operational efficiency",
+        "Market expansion",
+        "Resource optimization"
       ],
       accentColor: "from-[#660099] to-[#3399ff] opacity-",
     }

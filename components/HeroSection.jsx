@@ -17,14 +17,36 @@ export default function HeroSection() {
             </span>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:mb-6 mb-4 text-gray-700">
-              Transform Your Business into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] via-indigo-400 to-indigo-300">Revenue-Generating</span> Machine
+              10+ Proven Ways to Increase <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] via-indigo-400 to-indigo-300">Business Growth</span>
             </h1>
 
-            <p className="text-lg text-gray-500 md:mb-8 mb-6">
-              Unlock sustainable growth with data-driven strategies tailored for SMBs, online businesses, and content creators. Book your free 30-minute strategy session today.
-            </p>
+            {/* <p className="text-lg text-gray-500 md:mb-8 mb-6">
+              Leads are just 1 way to grow sales and revenue!
+            </p> */}
 
-            <div className="flex justify-center sm:justify-start">
+            <div className="text-lg text-gray-500">
+              <p className="text-gray-600 mb-4 ">
+                Leads are just 1 way to grow sales and revenue!
+              </p>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex items-start">
+                  <span className="text-success mr-2 text-xl">✓</span>
+                  <span>I&apos;ll help identify and prioritize the most effective ways to increase revenue—without needing more ads, staff, or capital. </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-success mr-2 text-xl">✓</span>
+                  <span>Then I&apos;ll guide you to execute the highest-impact ones.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-success mr-2 text-xl">✓</span>
+                  <span>Ideal for SMBs, service businesses, and founders in flat or declining markets.</span>
+                </li>
+              </ul>
+            </div>
+
+
+
+            <div className="flex justify-center sm:justify-start mt-6">
               <a
                 href="https://calendly.com/"
                 target="_blank"
@@ -33,7 +55,7 @@ export default function HeroSection() {
               >
                 <Button
                   variant="default"
-                  className="px-5 sm:px-6 py-6 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-lg btn-cta group w-full"
+                  className="px-5 sm:px-6 py-7 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-xl tracking-wide btn-cta group w-full"
                 >
                   <span className="flex items-center justify-center gap-3 btn-content">
                     <svg
@@ -51,7 +73,7 @@ export default function HeroSection() {
                       <line x1="8" y1="2" x2="8" y2="6" />
                       <line x1="3" y1="10" x2="21" y2="10" />
                     </svg>
-                    <span className="whitespace-nowrap text-sm">Book Your Free Strategy Call</span>
+                    <span className="whitespace-nowrap text-sm">Get a Free Consultation Now</span>
                   </span>
                 </Button>
               </a>
@@ -118,7 +140,7 @@ export default function HeroSection() {
 
 
 import { useState, useEffect } from "react"
-import { Calendar, CheckCircle, ArrowRight, Sparkles } from "lucide-react"
+import { Calendar, CheckCircle, Sparkles } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function StrategySessionCard() {

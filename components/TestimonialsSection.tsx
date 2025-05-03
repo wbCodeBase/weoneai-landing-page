@@ -7,7 +7,7 @@ export default function TestimonialsSection() {
     {
       name: "Alex P.",
       title: "Startup Founder",
-      quote: "The session gave me clarity and confidence to take my business to the next level. The actionable strategies have already increased our conversion rate by 37%.",
+      quote: " His ability to think creatively, strategically and identify new opportunities for   revenue has been a tremendous asset to our team.",
       initial: "A",
       rating: 5
     },

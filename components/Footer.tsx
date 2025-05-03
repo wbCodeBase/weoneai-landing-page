@@ -14,7 +14,7 @@ export default function Footer() {
 
         <div className="mb-12 py-16 border bg-gray-800 border-gray-800 p-8 rounded-2xl text-center md:text-left flex flex-col justify-center items-center gap-8">
 
-          <span className="inline-block text-sm font-medium px-4 py-2 bg-gradient-to-r from-blue-100 via-indigo-100 to-white text-[#3399ff] rounded-full">
+          <span className="inline-block text-sm font-medium px-4 py-2 bg-gradient-to-r from-blue-50 via-indigo-100 to-white text-blue-500 rounded-full">
             Business Growth Expert
           </span>
 
@@ -30,7 +30,7 @@ export default function Footer() {
           >
             <span className="flex items-center justify-center gap-3 btn-content">
 
-              <span className="whitespace-nowrap text-sm">Book Your Free Strategy Call</span>
+              <span className="whitespace-nowrap text-sm">Get a Free Audit Call</span>
 
               <ArrowRight className="w-5 h-5 btn-cta-icon" />
             </span>
