@@ -1,25 +1,25 @@
 'use client';
 
-import { GiRocket, GiGrowth, GiMoneyStack, GiTargetDummy } from "react-icons/gi";
+import { GiRocket } from "react-icons/gi";
 import { SiSimpleanalytics } from "react-icons/si"; 
-import { FaChartLine, FaLightbulb, FaRegChartBar, FaTools, FaUsersCog, FaRegCheckCircle } from "react-icons/fa";
-import { BiTransfer } from "react-icons/bi";
+import { FaChartLine, FaLightbulb, FaRegChartBar } from "react-icons/fa";
 import { HiOutlineCurrencyDollar } from "react-icons/hi";
 
 interface ExpertiseCardProps {
   icon: React.ReactNode;
   title: string;
+  key: number;
   description: string;
   bulletPoints: string[];
   accentColor: string;
 }
 
-const ExpertiseCard = ({ icon, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
+const ExpertiseCard = ({ icon, key, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
   // Icons for bullet points
   const bulletIcons = [
-    <FaLightbulb className="w-4 h-4" />,
-    <FaRegChartBar className="w-4 h-4" />,
-    <HiOutlineCurrencyDollar className="w-4 h-4" />,
+    <FaLightbulb key={key} className="w-4 h-4" />,
+    <FaRegChartBar key={key} className="w-4 h-4" />,
+    <HiOutlineCurrencyDollar key={key} className="w-4 h-4" />,
   ];
   
   return (
@@ -130,7 +130,8 @@ export default function ExpertiseSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {expertiseAreas.map((area, index) => (
             <div key={index} className={`reveal ${index === 0 ? 'animate-slide-in-left delay-100' : index === 1 ? 'animate-slide-up delay-300' : 'animate-slide-in-right delay-500'}`}>
-              <ExpertiseCard 
+              <ExpertiseCard
+                key={index} 
                 icon={area.icon}
                 title={area.title}
                 description={area.description}

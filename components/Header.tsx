@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
-import { Logo } from '@/components/ui/logo';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +27,7 @@ export default function Header() {
           >
             <span className="flex items-center justify-center gap-3 btn-content">
               <MessageSquare className="w-4 h-4 transition-transform duration-300 group-hover:rotate-12" />
-              <span className="whitespace-nowrap text-sm">Let's Talk</span>
+              <span className="whitespace-nowrap text-sm">Let&apos;s Talk</span>
             </span>
           </Button>
 

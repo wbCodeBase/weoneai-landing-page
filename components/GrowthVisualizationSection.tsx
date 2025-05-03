@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, LineChart, TrendingUp, BarChart3 } from 'lucide-react';
+import Image from 'next/image';
 
 export default function GrowthVisualizationSection() {
   return (
@@ -12,7 +13,7 @@ export default function GrowthVisualizationSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur-lg opacity-70"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <img 
+                <Image 
                   src="https://images.unsplash.com/photo-1553484771-08351a69e8f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
                   alt="Business growth concept" 
                   className="w-full h-auto rounded-2xl" 

@@ -9,7 +9,7 @@
 // }
 
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ExpertiseSection from '@/components/ExpertiseSection';
@@ -19,7 +19,7 @@ import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
-  const [scrollY, setScrollY] = useState(0);
+  // const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     // Improved reveal animations on scroll with more dynamic behavior
@@ -68,7 +68,7 @@ export default function Home() {
       });
 
       // Update scroll position for parallax effects
-      setScrollY(window.scrollY);
+      // setScrollY(window.scrollY);
     };
 
     // Smooth scroll behavior for anchor links

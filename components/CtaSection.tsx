@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import { Calendar, ChevronRight, CheckCircle } from "lucide-react"
+import { CheckCircle } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
@@ -42,7 +42,7 @@ export default function CtaSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
               {/* What You'll Get */}
               <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
-                <h3 className="font-semibold text-lg sm:text-xl mb-6 text-slate-800">What You'll Get:</h3>
+                <h3 className="font-semibold text-lg sm:text-xl mb-6 text-slate-800">What You&apos;ll Get:</h3>
                 <ul className="space-y-4">
                   {[
                     "Personalized growth strategy tailored to your business",

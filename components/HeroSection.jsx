@@ -81,7 +81,7 @@ export default function HeroSection() {
             <div className="mt-3 p-5 bgsecondary/60 rounded-xl backdrop-blur-sm borde border-gray-800">
               <h3 className="text-2xl font-bold text-gray-700 mb-3">What to Expect From Your Strategy Call</h3>
               <p className="text-gray-600 mb-4">
-                In this free 30-minute consultation, we'll dive deep into your business challenges and create an actionable roadmap for growth.
+                In this free 30-minute consultation, we&apos;ll dive deep into your business challenges and create an actionable roadmap for growth.
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
@@ -365,7 +365,7 @@ export function StrategySessionCardLight() {
               <span className="inline-block mr-3 p-1.5 rounded-full bg-violet-100">
                 <Sparkles className="w-5 h-5 text-violet-600" />
               </span>
-              You'll Receive
+              You&apos;ll Receive
             </h3>
 
             <motion.ul className="space-y-3 md:space-y-4">
@@ -454,7 +454,7 @@ export function StrategySessionCardInitial() {
             </ul>
           </div>
           <div className=''>
-            <h3 className="text-xl font-semibold mb-4 text-white">You'll Receive:</h3>
+            <h3 className="text-xl font-semibold mb-4 text-white">You&apos;ll Receive:</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-success mr-2 text-xl">✓</span>

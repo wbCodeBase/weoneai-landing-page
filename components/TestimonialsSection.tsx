@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
             What Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] to-[#3399ff]/60">Clients</span> Say
           </h2>
           <p className="text-gray-500 text-lg">
-            Don't just take our word for it - hear from businesses we've helped
+            Don&apos;t just take our word for it - hear from businesses we&apos;ve helped
           </p>
         </div>
 
@@ -84,7 +84,7 @@ export default function TestimonialsSection() {
               </div>
 
               <p className="text-gray-500 text-lg relative z-10">
-                "{testimonial.quote}"
+              &quot;{testimonial.quote}&quot;
               </p>
             </div>
           ))}
