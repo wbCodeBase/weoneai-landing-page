@@ -2,8 +2,9 @@
 
 import { GiRocket } from "react-icons/gi";
 import { SiSimpleanalytics } from "react-icons/si"; 
-import { FaChartLine, FaLightbulb, FaRegChartBar } from "react-icons/fa";
-import { HiOutlineCurrencyDollar } from "react-icons/hi";
+import { FaChartLine } from "react-icons/fa";
+// import { FaChartLine, FaLightbulb, FaRegChartBar } from "react-icons/fa";
+// import { HiOutlineCurrencyDollar } from "react-icons/hi";
 
 interface ExpertiseCardProps {
   icon: React.ReactNode;
@@ -14,7 +15,7 @@ interface ExpertiseCardProps {
   accentColor: string;
 }
 
-const ExpertiseCard = ({ icon, num, title, description, accentColor }: ExpertiseCardProps) => {
+const ExpertiseCard = ({ icon, title, description, accentColor }: ExpertiseCardProps) => {
 // const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
   // Icons for bullet points
   // const bulletIcons = [
