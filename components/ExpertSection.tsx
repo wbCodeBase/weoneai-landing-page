@@ -1,7 +1,6 @@
 'use client'
 
 import { FaMedal, FaLinkedin } from "react-icons/fa";
-import { FaGraduationCap, FaBriefcase, FaUsers, FaStar } from "react-icons/fa";
 
 export default function ExpertSection() {
   return (

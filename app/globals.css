@@ -125,7 +125,9 @@
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: var(--font-inter); */
+    font-family: var(--font-geist-sans);
   }
 
   html {
