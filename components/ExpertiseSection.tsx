@@ -46,16 +46,16 @@ const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColo
       </div>
       
       {/* Title with gradient */}
-      <h3 className="text-xl font-semibold mb-3 text-gray-700 hover:bg-clip-text 
+      <h3 className="text-xl font-semibold my-3 text-gray-700 hover:bg-clip-text 
                      hover:bg-gradient-to-r hover:from-white hover:to-white/90 transition-all duration-300">
         {title}
       </h3>
       
       {/* Description */}
-      <p className="text-gray-500 text-sm mb-6 transition-colors duration-300">{description}</p>
+      <p className="text-gray-500 text-md md:text-lg mb-1 transition-colors duration-300">{description}</p>
       
       {/* Bullet points with icons */}
-      <ul className="space-y-4">
+      {/* <ul className="space-y-4">
         {bulletPoints.map((point, index) => (
           <li key={index} className="flex items-center gap-3 group/item">
             <div className={`flex items-center justify-center p-1.5 rounded-full bg-gradient-to-r ${accentColor.replace('opacity-', '')} 
@@ -65,7 +65,7 @@ const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColo
             <span className="text-sm text-gray-500 transition-colors duration-300">{point}</span>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };
