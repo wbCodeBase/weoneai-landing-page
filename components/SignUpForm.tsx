@@ -52,7 +52,7 @@ export default function SignUpForm() {
                 placeholder="First Name"
                 value={formData.firstName}
                 onChange={handleChange}
-                className="bg-white text-gray-600 border-none px-4 h-14 rounded-xl text-xl"
+                className="bg-white text-gray-600 border-none px-4 h-14 rounded-xl"
                 required
               />
               <Input
