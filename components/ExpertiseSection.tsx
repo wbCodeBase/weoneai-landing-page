@@ -8,18 +8,18 @@ import { HiOutlineCurrencyDollar } from "react-icons/hi";
 interface ExpertiseCardProps {
   icon: React.ReactNode;
   title: string;
-  key: number;
+  num: number;
   description: string;
   bulletPoints: string[];
   accentColor: string;
 }
 
-const ExpertiseCard = ({ icon, key, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
+const ExpertiseCard = ({ icon, num, title, description, bulletPoints, accentColor }: ExpertiseCardProps) => {
   // Icons for bullet points
   const bulletIcons = [
-    <FaLightbulb key={key} className="w-4 h-4" />,
-    <FaRegChartBar key={key} className="w-4 h-4" />,
-    <HiOutlineCurrencyDollar key={key} className="w-4 h-4" />,
+    <FaLightbulb key={num} className="w-4 h-4" />,
+    <FaRegChartBar key={num} className="w-4 h-4" />,
+    <HiOutlineCurrencyDollar key={num} className="w-4 h-4" />,
   ];
   
   return (
@@ -131,7 +131,7 @@ export default function ExpertiseSection() {
           {expertiseAreas.map((area, index) => (
             <div key={index} className={`reveal ${index === 0 ? 'animate-slide-in-left delay-100' : index === 1 ? 'animate-slide-up delay-300' : 'animate-slide-in-right delay-500'}`}>
               <ExpertiseCard
-                key={index} 
+                num={index} 
                 icon={area.icon}
                 title={area.title}
                 description={area.description}
