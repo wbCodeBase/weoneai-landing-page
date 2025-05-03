@@ -23,11 +23,11 @@ export default function Header() {
 
           <Button
             variant="default"
-            className="px-5 sm:px-6 py-4 md:py-6 cursor-pointer bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta group w-full"
+            className="px-5 sm:px-6 py-6 cursor-pointer bg-indigo-400 hover:bg-blue-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta group w-full"
           >
             <span className="flex items-center justify-center gap-3 btn-content">
               <MessageSquare className="w-4 h-4 transition-transform duration-300 group-hover:rotate-12" />
-              <span className="whitespace-nowrap text-sm">Let&apos;s Talk</span>
+              <span className="whitespace-nowrap text-sm tracking-wide">Let&apos;s Talk</span>
             </span>
           </Button>
 

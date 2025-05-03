@@ -17,6 +17,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import ExpertSection from '@/components/ExpertSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
+import SignUpForm from '@/components/SignUpForm';
 
 export default function Home() {
   // const [scrollY, setScrollY] = useState(0);
@@ -110,6 +111,8 @@ export default function Home() {
       <Header />
       <main className="overflow-x-hidden">
         <HeroSection />
+        <SignUpForm />
+        
         <TestimonialsSection />
         <ExpertiseSection />
         <ExpertSection />

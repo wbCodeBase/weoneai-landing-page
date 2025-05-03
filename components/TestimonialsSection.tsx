@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-16 md:py24 bg-background">
       <div className="container mx-auto px-6 md:px-8 max-w-[1280px]">
         <div className="text-center max-w-3xl mx-auto mb-16 reveal">
           <span className="inline-block text-sm font-medium px-4 py-2 bg-[#3399ff]/5 text-[#3399ff] border border-[#3399ff] rounded-full mb-4">
@@ -53,8 +53,8 @@ export default function TestimonialsSection() {
 
               {/* <div className="absolute inset-0 bg-gradient-to-br from-purple-100 via-indigo-50 to-violet-100"></div> */}
 
-              {/* <div className="absolute -right-4 -top-4 w-24 h-24 bg-gradient-to-br from-[#3399ff]/10 to-accent/10 blur-2xl rounded-full"></div>
-              <div className="absolute -left-8 -bottom-8 w-40 h-40 bg-gradient-to-br from-accent/10 to-[#3399ff]/10 blur-2xl rounded-full"></div> */}
+              {/* <div className="absolute -right-4 -top-4 w-24 h-24 bg-gradient-to-br from-[#3399ff]/10 to-[#660099]/10 blur-2xl rounded-full"></div>
+              <div className="absolute -left-8 -bottom-8 w-40 h-40 bg-gradient-to-br from-[#660099]/10 to-[#3399ff]/10 blur-2xl rounded-full"></div> */}
 
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                 <div className="flex items-center">

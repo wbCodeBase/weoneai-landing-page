@@ -26,7 +26,7 @@ export default function Footer() {
 
           <Button
             variant="default"
-            className="px-5 sm:px-6 py-4 md:py-6 cursor-pointer bggradient-to-r fromindigo-400 tovoilet-400 bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta"
+            className="px-5 sm:px-6 py-6 cursor-pointer hover:bg-blue-400 bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta"
           >
             <span className="flex items-center justify-center gap-3 btn-content">
 

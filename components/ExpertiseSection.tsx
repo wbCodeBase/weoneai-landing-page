@@ -92,7 +92,7 @@ export default function ExpertiseSection() {
         "Market expansion",
         "Resource optimization"
       ],
-      accentColor: "from-[#3399ff] to-accent opacity-",
+      accentColor: "from-[#3399ff] to-[#660099] opacity-",
     },
     {
       icon: <SiSimpleanalytics className="w-6 h-6 animate-pulse" />,
@@ -103,7 +103,7 @@ export default function ExpertiseSection() {
         "Process automation",
         "Cost reduction"
       ],
-      accentColor: "from-accent to-[#3399ff] opacity-",
+      accentColor: "from-[#660099] to-[#3399ff] opacity-",
     }
   ];
 
@@ -114,7 +114,7 @@ export default function ExpertiseSection() {
       
       {/* Animated background elements */}
       <div className="absolute top-40 left-10 w-72 h-72 bg-[#3399ff]/5 rounded-full filter blur-3xl animate-pulse opacity-30"></div>
-      <div className="absolute bottom-40 right-10 w-80 h-80 bg-accent/5 rounded-full filter blur-3xl animate-pulse opacity-30 animation-delay-2000"></div>
+      <div className="absolute bottom-40 right-10 w-80 h-80 bg-[#660099]/5 rounded-full filter blur-3xl animate-pulse opacity-30 animation-delay-2000"></div>
       
       <div className="container mx-auto px-6 md:px-8 max-w-[1280px] relative z-10">
         <div className="text-center mb-16 reveal">

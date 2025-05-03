@@ -16,8 +16,8 @@ export default function HeroSection() {
               Business Growth Expert
             </span>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:mb-6 mb-4 text-gray-700 leading-tight">
-              Transform Your Business into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] [#3399ff] via-indigo-400 to-indigo-300">Revenue-Generating</span> Machine
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:mb-6 mb-4 text-gray-700">
+              Transform Your Business into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] via-indigo-400 to-indigo-300">Revenue-Generating</span> Machine
             </h1>
 
             <p className="text-lg text-gray-500 md:mb-8 mb-6">
@@ -33,7 +33,7 @@ export default function HeroSection() {
               >
                 <Button
                   variant="default"
-                  className="px-5 sm:px-6 py-4 md:py-6 bggradient-to-r fromindigo-400 tovoilet-400 bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta group w-full"
+                  className="px-5 sm:px-6 py-6 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-lg btn-cta group w-full"
                 >
                   <span className="flex items-center justify-center gap-3 btn-content">
                     <svg
@@ -78,7 +78,7 @@ export default function HeroSection() {
             </div>
 
             {/* What to Expect section below video */}
-            <div className="mt-3 p-5 bgsecondary/60 rounded-xl backdrop-blur-sm borde border-gray-800">
+            <div className="mt-3 p-5 rounded-xl backdrop-blursm borde border-gray-800">
               <h3 className="text-2xl font-bold text-gray-700 mb-3">What to Expect From Your Strategy Call</h3>
               <p className="text-gray-600 mb-4">
                 In this free 30-minute consultation, we&apos;ll dive deep into your business challenges and create an actionable roadmap for growth.
