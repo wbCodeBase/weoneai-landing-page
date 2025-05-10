@@ -5,6 +5,7 @@ import { CheckCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 export default function CtaSection() {
   return (
@@ -91,34 +92,34 @@ export default function CtaSection() {
             {/* CTA Button */}
             <div className="text-center">
               <div className="flex justify-center items-center flex-wrap gap-6 mb-6">
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
+                <Link
+                  href="https://www.linkedin.com/in/stanfordsequeira?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block"
                 >
                   <Button
                     variant="default"
-                    className="cursor-pointer text-white hover:text-white/90 transition-colors bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-5 py-6 rounded-lg w-max btn-cta shadow-lg"
+                    className="cursor-pointer text-white hover:text-white/90 transition-colors bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-5 sm:px-7 py-6 md:py-7 w-max btn-cta shadow-lg"
                   >
-                    <span className="flex items-center justify-center btn-content">
-                      <FaLinkedin className="mr-2 text-xl" />
-                      <span className="whitespace-nowrap md:text-lg text-md">
+                    <span className="flex items-center justify-center">
+                      <FaLinkedin className="mr-3 text-xl" />
+                      <span className="whitespace-nowrap md:text-lg text-lg">
                         Connect on LinkedIn
                       </span>
                     </span>
                   </Button>
-                </a>
+                </Link>
 
-                <a
-                  href="https://calendly.com/"
+                <Link
+                  href="https://calendly.com/stanford-s"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block"
                 >
                   <Button
                     variant="default"
-                    className="cursor-pointer px-5 sm:px-7 py-6 md:py-7 hover:bg-blue-400 bg-indigo-400 text-white rounded-xl font-semibold text-base btn-cta group w-full"
+                    className="cursor-pointer px-5 sm:px-7 py-6 md:py-7 hover:bg-blue-400 bg-indigo-400 text-white group w-full"
                   >
                     <span className="flex items-center justify-center gap-3 btn-content">
                       <svg
@@ -143,12 +144,12 @@ export default function CtaSection() {
                         <line x1="8" y1="2" x2="8" y2="6" />
                         <line x1="3" y1="10" x2="21" y2="10" />
                       </svg>
-                      <span className="whitespace-nowrap md:text-lg text-md">
+                      <span className="whitespace-nowrap md:text-xl text-lg">
                         Schedule Free Session
                       </span>
                     </span>
                   </Button>
-                </a>
+                </Link>
               </div>
 
               <p className="mt-6 text-sm text-slate-500">

@@ -47,18 +47,18 @@ export default function HeroSection() {
 
 
             <div className="flex justify-center sm:justify-start mt-6">
-              <a
-                href="https://calendly.com/"
+              <Link
+                href="https://calendly.com/stanford-s"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
               >
                 <Button
                   variant="default"
-                  className="px-5 sm:px-6 py-7 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-xl tracking-wide btn-cta group w-full"
+                  className="px-5 sm:px-7 py-8 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white font-medium text-sm md:text-xl tracking-wide btn-cta group w-full"
                 >
                   <span className="flex items-center justify-center gap-3 btn-content">
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="none"
@@ -66,17 +66,19 @@ export default function HeroSection() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="w-5 h-5 flex-shrink-0 btn-cta-icon"
+                      className="w-8 h-8 flex-shrink-0 btn-cta-icon"
                     >
                       <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
                       <line x1="16" y1="2" x2="16" y2="6" />
                       <line x1="8" y1="2" x2="8" y2="6" />
                       <line x1="3" y1="10" x2="21" y2="10" />
-                    </svg>
-                    <span className="whitespace-nowrap text-sm">Get a Free Consultation Now</span>
+                    </svg> */}
+                    <CalendarRange />
+                    
+                    <span className="whitespace-nowrap text-lg md:text-xl">Get a Free Consultation Now</span>
                   </span>
-                </Button>
-              </a>
+                </Button> 
+              </Link>
             </div>
           </div>
 
@@ -140,8 +142,9 @@ export default function HeroSection() {
 
 
 import { useState, useEffect } from "react"
-import { Calendar, CheckCircle, Sparkles } from "lucide-react"
+import { Calendar, CalendarRange, CheckCircle, Sparkles } from "lucide-react"
 import { motion } from "framer-motion"
+import Link from 'next/link';
 
 export function StrategySessionCard() {
   const [isVisible, setIsVisible] = useState(false)

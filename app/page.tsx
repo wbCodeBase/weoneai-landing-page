@@ -8,7 +8,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import ExpertSection from '@/components/ExpertSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
-import SignUpForm from '@/components/SignUpForm';
+import Calendly from '@/components/Calendly';
 
 export default function Home() {
   // const [scrollY, setScrollY] = useState(0);
@@ -99,10 +99,30 @@ export default function Home() {
 
   return (
     <div className="min-h-screen overflow-x-hidden">
-      <Header />
+      <Header /> 
       <main className="overflow-x-hidden">
         <HeroSection />
-        <SignUpForm />
+
+        {/* <Calendly /> */}
+
+  <div className="container mx-auto py-12 px-4">
+      <div className="max-w-5xl mx-auto space-y-8">
+        <div className="text-center space-y-4">
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Book a Meeting</h1>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Select a convenient time slot from my calendar. I&apos;m available for consultations, discussions, or any
+            questions you might have.
+          </p>
+        </div>
+
+        <Calendly
+          calendlyUrl="https://calendly.com/stanford-s"
+          title="Let's Connect"
+          description="Choose a time that works for your schedule"
+        />
+      </div>
+    </div>
+
         
         <TestimonialsSection />
         <ExpertiseSection />

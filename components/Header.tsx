@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,15 +20,15 @@ export default function Header() {
       <div className="container mx-auto px-6 md:px-8 max-w-[1280px] flex justify-end items-center">
         {/* <Logo /> */}
 
-        <a href="tel:+1234567890">
+        <Link href="https://calendly.com/stanford-s">
 
           <Button
             variant="default"
-            className="px-5 sm:px-6 py-6 cursor-pointer bg-indigo-400 hover:bg-blue-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta group w-full"
+            className="px-5 sm:px-6 py-6 cursor-pointer bg-indigo-400 hover:bg-blue-400 text-white font-medium text-sm md:text-base btn-cta group w-full"
           >
             <span className="flex items-center justify-center gap-3 btn-content">
               <MessageSquare className="w-4 h-4 transition-transform duration-300 group-hover:rotate-12" />
-              <span className="whitespace-nowrap text-sm tracking-wide">Let&apos;s Talk</span>
+              <span className="whitespace-nowrap text-lg tracking-wide">Let&apos;s Talk</span>
             </span>
           </Button>
 
@@ -54,7 +55,7 @@ export default function Header() {
               <span>Let's Talk</span>
             </span>
           </Button> */}
-        </a>
+        </Link>
       </div>
     </header>
   );

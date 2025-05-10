@@ -1,7 +1,8 @@
 'use client';
 
-import {  ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -24,18 +25,20 @@ export default function Footer() {
           </div>
 
 
-          <Button
-            variant="default"
-            className="px-5 sm:px-6 py-6 cursor-pointer hover:bg-blue-400 bg-indigo-400 text-white rounded-full font-semibold text-sm md:text-base btn-cta"
-          >
-            <span className="flex items-center justify-center gap-3 btn-content">
+          <Link
+            href="https://calendly.com/stanford-s">
+            <Button
+              variant="default"
+              className="px-5 sm:px-7 py-6 md:py-7 cursor-pointer hover:bg-blue-400 bg-indigo-400 text-white text-sm md:text-base btn-cta"
+            >
+              <span className="flex items-center justify-center gap-3 btn-content">
 
-              <span className="whitespace-nowrap text-sm">Get a Free Audit Call</span>
+                <span className="whitespace-nowrap text-lg">Get a Free Audit Call</span>
 
-              <ArrowRight className="w-5 h-5 btn-cta-icon" />
-            </span>
-          </Button>
-
+                <ArrowRight className="w-5 h-5 btn-cta-icon" />
+              </span>
+            </Button>
+          </Link>
 
 
         </div>

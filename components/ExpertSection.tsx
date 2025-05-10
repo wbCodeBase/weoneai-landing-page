@@ -73,12 +73,12 @@ export default function ExpertSection() {
             
             <div className="mb-6">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/stanfordsequeira?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center text-white hover:text-white/90 transition-colors bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-3 rounded-lg w-max btn-cta shadow-lg"
+                className="flex items-center text-white hover:text-white/90 transition-colors bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-6 py-4 rounded-sm w-max btn-cta shadow-lg"
               >
-                <FaLinkedin className="mr-2 text-xl" /> <span className="btn-content">Connect on LinkedIn</span>
+                <FaLinkedin className="mr-3 text-xl" /> <span className="text-lg">Connect on LinkedIn</span>
               </a>
             </div>
             
