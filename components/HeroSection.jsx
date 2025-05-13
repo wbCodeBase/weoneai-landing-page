@@ -87,7 +87,7 @@ export default function HeroSection() {
             {/* Video container */}
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-[#3399ff] to-accent rounded-2xl blur opacity-30"></div>
-              <div className="relative bg-background rounded-lg overflow-hidden shadow-xl border border-gray-300">
+              <div className="relative bg-background rounded-lg overflow-hidden shadow-xl">
 
                 <iframe width="572" height="322" src="https://www.youtube.com/embed/8MUIs7KCsxw?si=9YVKRw1TPbfig4RT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
