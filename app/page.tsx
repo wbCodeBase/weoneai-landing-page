@@ -115,11 +115,7 @@ export default function Home() {
           </p>
         </div>
 
-        <Calendly
-          calendlyUrl="https://calendly.com/stanford-s"
-          title="Let's Connect"
-          description="Choose a time that works for your schedule"
-        />
+        <Calendly />
       </div>
     </div>
 
