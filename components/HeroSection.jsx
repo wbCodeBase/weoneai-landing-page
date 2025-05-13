@@ -74,10 +74,10 @@ export default function HeroSection() {
                       <line x1="3" y1="10" x2="21" y2="10" />
                     </svg> */}
                     <CalendarRange />
-                    
+
                     <span className="whitespace-nowrap text-lg md:text-xl">Get a Free Consultation Now</span>
                   </span>
-                </Button> 
+                </Button>
               </Link>
             </div>
           </div>
@@ -87,8 +87,11 @@ export default function HeroSection() {
             {/* Video container */}
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-[#3399ff] to-accent rounded-2xl blur opacity-30"></div>
-              <div className="relative bg-background rounded-2xl overflow-hidden shadow-2xl">
-                <video
+              <div className="relative bg-background rounded-lg overflow-hidden shadow-xl border border-gray-300">
+
+                <iframe width="572" height="322" src="https://www.youtube.com/embed/8MUIs7KCsxw?si=9YVKRw1TPbfig4RT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                {/* <video
                   className="w-full h-auto rounded-2xl"
                   autoPlay
                   loop
@@ -97,7 +100,9 @@ export default function HeroSection() {
                 >
                   <source src="/money.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
-                </video>
+                </video> */}
+
+
               </div>
             </div>
 
