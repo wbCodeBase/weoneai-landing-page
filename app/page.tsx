@@ -3,16 +3,21 @@
 import { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
-import ExpertiseSection from '@/components/ExpertiseSection';
-import TestimonialsSection from '@/components/TestimonialsSection';
-import ExpertSection from '@/components/ExpertSection';
-import CtaSection from '@/components/CtaSection';
+import HeroSection2 from '@/components/HeroSection2';
+import GetYourApp, { MaxiSuccess } from '@/components/GetYourApp';
+// import ExpertiseSection from '@/components/ExpertiseSection';
+// import ExpertSection from '@/components/ExpertSection';
+// import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
-import Calendly from '@/components/Calendly';
+import IntegratedIcons from '@/components/IntegratedIcons';
+import Cta from '@/components/Cta';
+import Faqs from '@/components/Faqs';
+import Services from '@/components/Services';
+
 
 export default function Home() {
   // const [scrollY, setScrollY] = useState(0);
- 
+
   useEffect(() => {
     // Improved reveal animations on scroll with more dynamic behavior
     const checkReveal = () => {
@@ -99,31 +104,29 @@ export default function Home() {
 
   return (
     <div className="min-h-screen overflow-x-hidden">
-      <Header /> 
-      <main className="overflow-x-hidden">
+      <Header />
+      <main className="overflow-x-hidden bg-blue-50">
         <HeroSection />
 
-        {/* <Calendly /> */}
 
-  <div className="container mx-auto py-12 px-4">
-      <div className="max-w-5xl mx-auto space-y-8">
-        <div className="text-center space-y-4">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Book a Meeting</h1>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Select a convenient time slot from my calendar. I&apos;m available for consultations, discussions, or any
-            questions you might have.
-          </p>
-        </div>
+        <GetYourApp />
 
-        <Calendly />
-      </div>
-    </div>
+        <IntegratedIcons />
 
-        
-        <TestimonialsSection />
-        <ExpertiseSection />
+        <HeroSection2 />
+
+        <Services />
+
+        <MaxiSuccess />
+
+        <Cta />
+
+        <Faqs />
+
+
+        {/* <ExpertiseSection />
         <ExpertSection />
-        <CtaSection />
+        <CtaSection /> */}
       </main>
       <Footer />
     </div>

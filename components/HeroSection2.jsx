@@ -2,9 +2,9 @@ import { Button } from '@/components/ui/button';
 import { Gift, Book, LockKeyholeOpen, MessageSquare, Medal } from 'lucide-react';
 import Link from 'next/link';
 
-export default function HeroSection() {
+export default function HeroSection2() {
   return (
-    <section className="pt-24 pb-10 md:pt-36 md:pb-18 bg-background overflow-hidden">
+    <section className="py-10 md:py-18 overflow-hidden bg-white">
       <div className="container mx-auto px-6 md:px-8 max-w-[1400px]">
         {/* Hero content */}
         <div className="flex flex-col items-start text-center gap-10 md:gap-16">
@@ -14,50 +14,25 @@ export default function HeroSection() {
             {/* <span className="inline-block text-sm font-medium px-4 py-2 bg-indigo-400 text-white rounded-full md:mb-6 mb-4 shadow-lg">
               Business Growth Expert
             </span> */}
-            <span className="inline-block text-sm border border-[#3399ff]/60 font-medium px-4 py-2 bg-[#3399ff]/5 text-[#3399ff] rounded-full mb-4">
-              Boost your sales
-            </span>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:mb-6 mb-4 text-gray-700">
-              Start An <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">Online Business</span> Today
+
+            <h1 className="text-3xl text-gray-700 md:text-5xl font-bold mb-6">
+              Meet Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">AI-Powered</span>  Vehicle For Success
               {/* <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-400 to-indigo-300">Business Growth</span> */}
             </h1>
 
             <div className="text-md text-gray-500">
               <p className="text-gray-500 mb-4 max-w-5xl">
-                Looking to start a successful online business without tech skills or a big investment? Here’s an opportunity: by paying a fixed fee, you can acquire your own copy of our proven best-seller app, SocialPoster. Brand it, market it & watch your revenue grow exponentially as you gain unlimited subscribers—achieving the financial freedom you've always wanted.
+                There’s a reason why SocialPoster is a best-seller. Equipped with cutting-edge AI tools like WhatsApp chatbots and social media automation, this superior product empowers entrepreneurs. Harness the power of AI to deliver exceptional value and turn your clients into loyal customers.
               </p>
             </div>
 
-            {/* <div className="flex justify-center sm:justify-start mt-6">
-              <Link
-                href="https://calendly.com/stanford-s"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto"
-              >
-                <Button
-                  variant="default"
-                  className="px-5 sm:px-7 py-8 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white font-medium text-sm md:text-xl tracking-wide btn-cta group w-full"
-                >
-                  <span className="flex items-center justify-center gap-3 btn-content">
-
-                    <CalendarRange />
-
-                    <span className="whitespace-nowrap text-lg md:text-xl">Get a Free Consultation Now</span>
-                  </span>
-                </Button>
-              </Link>
-            </div> */}
           </div>
 
           {/* Right side - Video and what to expect */}
           <div className="animate-slide-in-right flex justify-center items-center w-full hero-image order-2">
-            {/* Video container */}
-            {/* <div className="bg-gradient-to-r from-[#3399ff] to-accent rounded-2xl blur opacity-30"></div> */}
 
             <div className="max-w-5xl bg-background rounded-2xl overflow-hidden shadow-xl">
-
 
               <video
                 className="w-full h-auto rounded-2xl"
@@ -73,92 +48,10 @@ export default function HeroSection() {
 
             </div>
 
-            {/* What to Expect section below video */}
-            {/* <div className="mt-3 p-5 rounded-xl backdrop-blursm borde border-gray-800">
-              <h3 className="text-2xl font-bold text-gray-700 mb-3">What to Expect From Your Strategy Call</h3>
-              <p className="text-gray-600 mb-4">
-                In this free 30-minute consultation, we&apos;ll dive deep into your business challenges and create an actionable roadmap for growth.
-              </p>
-              <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl">✓</span>
-                  <span>Business diagnostic assessment</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl">✓</span>
-                  <span>Custom growth strategy discussion</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl">✓</span>
-                  <span>Next step recommendations</span>
-                </li>
-              </ul>
-            </div> */}
-          </div>
-        </div>
-
-        {/* Additional content section */}
-        <div className="py-12 px-4 sm:px-6 lg:px-10 flex justify-center items-center">
-          <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-
-            {/* Card 1 - Free Trial */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-              <div className="text-blue-500 mb-4">
-                <Gift className='h-12 w-12' />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Free Trial</h3>
-              <p className="text-gray-500 text-md mb-4">
-                Test and use all SocialPoster features just like your customers would.
-                As a reseller, replace Planify X branding with your own.
-              </p>
-              <a href="#" className="text-blue-500 font-medium text-md hover:underline">Start Free Trial</a>
-            </div>
-
-
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-              <div className="text-blue-500 mb-4">
-                <LockKeyholeOpen className='h-12 w-12' />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Admin Demo</h3>
-              <p className="text-gray-500 text-md mb-4">
-                Explore the SocialPoster landing page and admin panel. When you acquire a reseller license, you will receive a copy of this site.
-              </p>
-              <a href="#" className="text-blue-500 font-medium text-md hover:underline">Explore Admin Panel</a>
-            </div>
-
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-              <div className="text-blue-500 mb-4">
-                <Book className='h-12 w-12' />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Help Center</h3>
-              <p className="text-gray-500 text-md mb-4">
-                Explore SocialPoster white label tutorials. With a reseller license, you’ll get ready-to-use docs for your customers.
-              </p>
-              <a href="#" className="text-blue-500 font-medium text-md hover:underline">Explore Tutorials</a>
-            </div>
-
-
           </div>
         </div>
 
 
-
-        <div className="flex justify-center items-center">
-          <Link href="/">
-            <Button
-              variant="default" className="px-5 cursor-pointer rounded-full sm:px-8 py-8 bg-blue-500 hover:bg-blue-400 text-white font-medium text-sm md:text-base">
-              <span className="flex items-center gap-6">
-                <Medal className="w-12 h-12 transition-transform duration-300 group-hover:rotate-12" />
-                <div className='flex flex-col'>
-                  <span className="whitespace-nowrap text-xl font-semibold tracking-wide">Become A Pioneer</span>
-                  <span className='text-sm text-left'>Get Your Own AI Platform</span>
-                </div>
-              </span>
-            </Button>
-          </Link>
-        </div>
 
 
 
