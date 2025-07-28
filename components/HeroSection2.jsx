@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function HeroSection2() {
   return (
-    <section className="py-10 md:py-18 overflow-hidden bg-white">
+    <section id='videoTour' className="py-10 md:py-18 overflow-hidden bg-white">
       <div className="container mx-auto px-6 md:px-8 max-w-[1400px]">
         {/* Hero content */}
         <div className="flex flex-col items-start text-center gap-10 md:gap-16">

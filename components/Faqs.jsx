@@ -74,7 +74,7 @@ const Faqs = () => {
     const data = faqData["software-development-company-in-india"];
 
     return (
-        <section className="border-t border-gray-300 container mx-auto max-w-screen-lg xl:max-w-screen-xl px-4 md:px-6 py-8">
+        <section id="faqs" className="container mx-auto max-w-screen-lg xl:max-w-screen-xl px-4 md:px-6 py-8">
             <section className="flex flex-wrap justify-center md:gap-10 gap-5 py-2 my-6">
                 <div className="lg:w-[30%] w-full">
                     {/* <h2 className="font-semibold text-orange-500 text-xl">FAQs</h2> */}

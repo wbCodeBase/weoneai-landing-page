@@ -5,7 +5,7 @@ export default function Services() {
   return (<>
 
 
-    <section className="md:py-20 py-12 bg-background overflow-hidden">
+    <section id='tools' className="md:py-20 py-12 bg-background overflow-hidden">
       <div className="container mx-auto px-6 md:px-8 max-w-[1200px]">
         {/* Hero content */}
         <div className="flex flex-col md:flex-row items-start gap-10 md:gap-16">
@@ -97,9 +97,6 @@ export default function Services() {
 
       </div>
     </section>
-
-
-
 
 
 

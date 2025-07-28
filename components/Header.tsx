@@ -74,9 +74,8 @@ export default function Header() {
 
   return (
     <header
-      className={`py-4 fixed w-full top-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-secondary/95 backdrop-blur-sm shadow-md' : ''
-      }`}
+      className={`py-4 fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-secondary/95 backdrop-blur-sm shadow-md' : ''
+        }`}
     >
       <div className="container mx-auto px-6 md:px-8 max-w-[1280px] flex justify-between items-center">
         {/* Logo */}
@@ -90,22 +89,25 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8 text-sm md:text-base font-medium text-gray-700">
-          <Link href="/" className="hover:text-blue-500 transition-colors">Home</Link>
-          <Link href="/services" className="hover:text-blue-500 transition-colors">Services</Link>
-          <Link href="/about" className="hover:text-blue-500 transition-colors">About</Link>
-          <Link href="/contact" className="hover:text-blue-500 transition-colors">Contact</Link>
+          <Link href="#intro" className="hover:text-blue-500 transition-colors">Introduction</Link>
+          <Link href="#benefits" className="hover:text-blue-500 transition-colors">Benefits</Link>
+          <Link href="#videoTour" className="hover:text-blue-500 transition-colors">Video Tour</Link>
+          <Link href="#tools" className="hover:text-blue-500 transition-colors">Tools</Link>
+          <Link href="#pricing" className="hover:text-blue-500 transition-colors">Pricing</Link>
+          <Link href="#faqs" className="hover:text-blue-500 transition-colors">Faqs</Link>
         </nav>
+        
 
         {/* CTA Button */}
         <div className="hidden md:block">
           <Link href="/contact">
             <Button
               variant="default"
-              className="px-5 sm:px-6 py-6 bg-blue-500 hover:bg-blue-400 text-white font-medium text-sm md:text-base cursor-pointer"
+              className="px-5 sm:px-6 py-6 bg-blue-500 hover:bg-blue-400 rounded-full text-white font-medium text-sm md:text-base cursor-pointer"
             >
               <span className="flex items-center gap-3">
                 <MessageSquare className="w-4 h-4 transition-transform duration-300 group-hover:rotate-12" />
-                <span className="whitespace-nowrap text-lg tracking-wide">Let&apos;s Talk</span>
+                <span className="whitespace-nowrap text-md tracking-wide">Live Demo</span>
               </span>
             </Button>
           </Link>

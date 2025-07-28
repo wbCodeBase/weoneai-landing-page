@@ -56,7 +56,7 @@ export default function IntegratedIcons() {
                 {platforms.map((platform) => (
                     <div key={platform.name} className="flex justify-center">
                         <div title={platform.name} className="tooltip">
-                            <Image src={platform?.icon} width={100} height={100} className="md:w-16 w-10" />
+                            <Image src={platform?.icon} width={100} height={100} alt="icons" className="md:w-16 w-10" />
                         </div>
                     </div>
                 ))}

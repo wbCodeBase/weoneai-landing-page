@@ -108,7 +108,6 @@ export default function Home() {
       <main className="overflow-x-hidden bg-blue-50">
         <HeroSection />
 
-
         <GetYourApp />
 
         <IntegratedIcons />

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="pt-24 pb-10 md:pt-36 md:pb-18 bg-background overflow-hidden">
+    <section id='introduction' className="pt-24 pb-10 md:pt-36 md:pb-18 bg-background overflow-hidden">
       <div className="container mx-auto px-6 md:px-8 max-w-[1400px]">
         {/* Hero content */}
         <div className="flex flex-col items-start text-center gap-10 md:gap-16">
@@ -98,7 +98,7 @@ export default function HeroSection() {
         </div>
 
         {/* Additional content section */}
-        <div className="py-12 px-4 sm:px-6 lg:px-10 flex justify-center items-center">
+        <div id='benefits' className="py-12 px-4 sm:px-6 lg:px-10 flex justify-center items-center">
           <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
             {/* Card 1 - Free Trial */}
