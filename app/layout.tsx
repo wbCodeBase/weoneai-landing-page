@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Roboto, Montserrat, Poppins, Raleway, Oswald } from "next/font/google";
 import "./globals.css";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,11 +14,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const inter = Inter({
+// const inter = Inter({
+//   subsets: ['latin'],
+//   variable: '--font-inter',
+//   display: 'swap',
+// })
+
+// const roboto = Roboto({
+//   subsets: ['latin'],
+//   weight: ['400', '500', '700'], // optional: choose needed weights
+//   display: 'swap',               // optional but recommended  
+//   variable: '--font-roboto',
+// })
+
+// const poppins = Poppins({
+//   subsets: ['latin'],
+//   variable: '--font-poppins',
+//   weight: ['400', '500', '700'],
+//   display: 'swap',
+// })
+
+const raleway = Raleway({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-raleway',
+  weight: ['400', '500', '700'],
   display: 'swap',
 })
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body  */}
-      <body className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
+      <body className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} antialiased`}
       >
         {children}
       </body>

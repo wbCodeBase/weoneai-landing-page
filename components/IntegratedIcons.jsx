@@ -46,10 +46,9 @@ export default function IntegratedIcons() {
                 Success Stories
             </span> */}
 
-            <h2 className="text-3xl text-gray-700 md:text-5xl font-bold mb-6">
-                Integrated With <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] to-[#3399ff]/60">Top Platforms</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-6 tracking-wide">
+                Integrated With Top Platforms
             </h2>
-
 
 
             <div className="max-w-5xl md:py-20 py-10 mx-auto grid grid-cols-3 sm:grid-cols-6 md:grid-cols-6 md:gap-16 gap-6 items-center justify-center">

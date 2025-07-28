@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import ankit from "@/public/team/ankit.jpeg"
+import sanjeev from "@/public/team/sanjeev.jpeg"
 
 export default function Services() {
   return (<>
@@ -12,8 +13,8 @@ export default function Services() {
           {/* Left side - Main content */}
           <div className="w-full md:w-[40%] animate-slide-in-left text-left order-1">
 
-            <h2 className="text-3xl md:text-4xl font-semibold md:mb-6 mb-4 text-gray-700">
-              Enhance Customer Interactions With <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] to-blue-400">AI Chatbots</span>
+            <h2 className="text-3xl md:text-4xl font-semibold md:mb-6 mb-4 leading-snug md:leading-tight tracking-wide">
+              Enhance Customer Interactions With AI Chatbots
             </h2>
 
 
@@ -28,7 +29,7 @@ export default function Services() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-success mr-2 text-xl text-green-600">✓</span>
-                  <span>Unlimited chatbots, subscribers & messages: </span>
+                  <span>Unlimited chatbots, subscribers & messages</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-success mr-2 text-xl text-green-600">✓</span>
@@ -73,16 +74,16 @@ export default function Services() {
             {/* What to Expect section below video */}
             <div className="flex justify-center itemscenter gap-6 mt-10 p-5 rounded-xl border bg-white text-gray-500 border-gray-200">
               <div className=''>
-                <Image src={ankit} alt='clientImage' className='rounded-full' width={400} height={400} />
+                <Image src={sanjeev} alt='clientImage' className='rounded-full' width={400} height={400} />
               </div>
 
               <div>
                 <p className="mb-3 text-sm italic">
-                  "Utilizing Planify X, I've successfully created my own AI chatbot service, and the response from clients has been absolutely phenomenal. I firmly believe that AI is the future, and I'm capitalizing on it in a big way, setting the stage for long-term success."
+                  "Utilizing WeoneAi, I've successfully created my own AI chatbot service, and the response from clients has been absolutely phenomenal. I firmly believe that AI is the future, and I'm capitalizing on it in a big way, setting the stage for long-term success."
                 </p>
 
                 <div className='text-sm'>
-                  <div className='font-semibold'>Ankit Pankit</div>
+                  <div className='font-semibold'>Sanjeev Kapoor</div>
                   <div>India</div>
                 </div>
 
@@ -109,31 +110,31 @@ export default function Services() {
           {/* Left side - Main content */}
           <div className="w-full md:w-[40%] animate-slide-in-left text-left order-2">
 
-            <h2 className="text-3xl md:text-4xl font-semibold md:mb-6 mb-4 text-gray-700">
-              Enhance Customer Interactions With <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] to-blue-400">AI Chatbots</span>
+            <h2 className="text-3xl md:text-4xl font-bold md:mb-6 mb-4 leading-snug md:leading-tight tracking-wide">
+              Efficient Lead Capture And Management
             </h2>
 
 
             <div className="text-lg text-gray-500">
               <p className="text-gray-600 mb-4 ">
-                Help your customers elevate their support & engagement with AI chatbots. They can customize conversations, handle inquiries 24/7 in any language, and boost sales through a range of interactive features.
+                Your customers can gather valuable information directly through chatbots and easily manage leads for higher conversion rates. Offer them powerful tools to streamline their lead generation process.
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl text-green-600">✓</span>
-                  <span>Connect WhatsApp via QR Code or Cloud API</span>
+                  <span className="text-success mr-2 text-xl text-blue-600">✓</span>
+                  <span>Ask the users for data and store their answers</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl text-green-600">✓</span>
-                  <span>Unlimited chatbots, subscribers & messages: </span>
+                  <span className="text-success mr-2 text-xl text-blue-600">✓</span>
+                  <span>Create custom categories for the stored info</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl text-green-600">✓</span>
-                  <span>Program ChatGPT to answer WhatsApp</span>
+                  <span className="text-success mr-2 text-xl text-blue-600">✓</span>
+                  <span>Download as a CSV file to use on other channels</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-success mr-2 text-xl text-green-600">✓</span>
-                  <span>WooCommerce & API Rest integrations</span>
+                  <span className="text-success mr-2 text-xl text-blue-600">✓</span>
+                  <span>Program sequences & notifications in your chats</span>
                 </li>
               </ul>
             </div>
@@ -143,7 +144,7 @@ export default function Services() {
             <div className="mt-6">
               <Link href="/">
                 <Button
-                  variant="default" className="px-5 cursor-pointer rounded-full sm:px-8 py-8 bg-green-600 hover:bg-green-550 text-white font-medium text-sm md:text-base">
+                  variant="default" className="px-5 cursor-pointer rounded-full sm:px-8 py-8 bg-blue-500 hover:bg-blue-600 text-white font-medium text-sm md:text-base">
                   <span className="flex items-center gap-6">
                     <Medal className="w-12 h-12 transition-transform duration-300 group-hover:rotate-12" />
                     <div className='flex flex-col'>
@@ -163,23 +164,23 @@ export default function Services() {
             {/* Video container */}
             <div className="flex justify-center items-center">
 
-              <Image src="https://planifyx.b-cdn.net/wp-content/uploads/2023/04/Phone-12.png.avif" width={500} height={600} alt="serviceImage" />
+              <Image src="https://planifyx.b-cdn.net/wp-content/uploads/2023/09/Magnet-2.png" width={500} height={600} alt="serviceImage" />
 
             </div>
 
             {/* What to Expect section below video */}
-            <div className="flex justify-center itemscenter gap-6 mt-10 p-5 rounded-xl border bg-white text-gray-500 border-gray-200">
+            <div className="flex justify-center itemscenter gap-6 mt-10 p-5 rounded-xl border bg-blue-100 text-gray-500 border-gray-200">
               <div className=''>
                 <Image src={ankit} alt='clientImage' className='rounded-full' width={400} height={400} />
               </div>
 
               <div>
                 <p className="mb-3 text-sm italic">
-                  "Utilizing Planify X, I've successfully created my own AI chatbot service, and the response from clients has been absolutely phenomenal. I firmly believe that AI is the future, and I'm capitalizing on it in a big way, setting the stage for long-term success."
+                  "Thanks to WeoneAi, I've effortlessly added AI chatbots to my range of services, which has attracted a global market of clients. AI is unquestionably the future of business, and I'm riding the wave of success with it."
                 </p>
 
                 <div className='text-sm'>
-                  <div className='font-semibold'>Ankit Pankit</div>
+                  <div className='font-semibold'>Ankit Dixit</div>
                   <div>India</div>
                 </div>
 

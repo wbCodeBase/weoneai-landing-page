@@ -16,52 +16,37 @@ const faqData = {
     "software-development-company-in-india": [
         {
             "id": "default-1",
-            "question": "What software technologies does Bunnx use for development?",
+            "question": "Is reselling an app is legal?",
             "answer": {
                 "type": "text",
-                "content": "We use a wide range of advanced software tools and technologies. And it depends on the type of software you are looking for."
+                "content": "Yes, it is! This is known as white label software and it is one of the most profitable business models in today’s digital market."
             }
         },
         {
             "id": "default-2",
-            "question": "What’s your pricing model?",
+            "question": "Are you the authors of SocialPoster?",
             "answer": {
                 "type": "text",
-                "content": "We have an affordable pricing model for the projects we take on. Our estimates will go well with your budget and provide you with a great value."
+                "content": "No, we are not the authors of SocialsPoster. However, we own all the rights to commercialize it, and have added over 40 exclusive enhancements to the original app, including cutting-edge AI add-ons, ChatGPT chatbots, and more."
             }
         },
         {
             "id": "default-3",
-            "question": "Do you provide end-to-end software delivery?",
+            "question": "How can I offer value if other resellers sell this same platform?",
             "answer": {
                 "type": "text",
-                "content": "Absolutely! From design and development to implementation, integration, setup, and post-deployment support – we handle it all. Our team builds only industry standard projects. With our software development services, we save your time and resources."
+                "content": "No worries! You can make the platform truly your own by customizing it with your unique logo, colors, language and landing page. Plus, you have the freedom to create special packages, set your own prices, and offer extra perks like better costs, extended trials, or additional services such as technical support and AI training. The possibilities are endless—get creative and make your offer stand out!"
             }
         },
         {
             "id": "default-4",
-            "question": "Will you match my timeline?",
+            "question": "Are there any hidden expenses?",
             "answer": {
                 "type": "text",
-                "content": "Yes, we will! After discussing what your requirements are, we create a plan and agree on a timeline together. We always commit to delivering projects on time with minimal hurdles."
+                "content": "No. However, you will need to consider some additional investments to make your new platform functional."
             }
         },
-        {
-            "id": "default-5",
-            "question": "Do you provide quality software delivery?",
-            "answer": {
-                "type": "text",
-                "content": "Quality is our top priority and we’re known for it. At every stage of development, we integrate thorough testing to catch and fix issues early. When you work with us, you can trust that quality will never be a concern."
-            }
-        },
-        {
-            "id": "default-6",
-            "question": "Do you offer after-sales software development services?",
-            "answer": {
-                "type": "text",
-                "content": "Yes, we provide support even after your project is delivered. We’re here to help with everything including updates, maintenance, or guidance."
-            }
-        }
+       
     ],
 
 
@@ -78,7 +63,7 @@ const Faqs = () => {
             <section className="flex flex-wrap justify-center md:gap-10 gap-5 py-2 my-6">
                 <div className="lg:w-[30%] w-full">
                     {/* <h2 className="font-semibold text-orange-500 text-xl">FAQs</h2> */}
-                    <h2 className="font-semibold text-gray-700 text-3xl my-2">Ask what you want</h2>
+                    <h2 className="font-semibold text-3xl md:text-4xl my-2">Ask what you want</h2>
                     <p className="text-lg text-gray-700">
                         Whether you require a complex enterprise software solution or
                         seamless software integration.

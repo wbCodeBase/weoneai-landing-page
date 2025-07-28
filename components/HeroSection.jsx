@@ -7,20 +7,14 @@ export default function HeroSection() {
     <section id='introduction' className="pt-24 pb-10 md:pt-36 md:pb-18 bg-background overflow-hidden">
       <div className="container mx-auto px-6 md:px-8 max-w-[1400px]">
         {/* Hero content */}
-        <div className="flex flex-col items-start text-center gap-10 md:gap-16">
+        <div className="flex flex-col items-start text-center gap-10 md:gap-10">
 
           {/* Left side - Main content */}
           <div className="w-full flex flex-col justify-center items-center animate-slide-in-left order-1">
-            {/* <span className="inline-block text-sm font-medium px-4 py-2 bg-indigo-400 text-white rounded-full md:mb-6 mb-4 shadow-lg">
-              Business Growth Expert
-            </span> */}
-            <span className="inline-block text-sm border border-[#3399ff]/60 font-medium px-4 py-2 bg-[#3399ff]/5 text-[#3399ff] rounded-full mb-4">
-              Boost your sales
-            </span>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:mb-6 mb-4 text-gray-700">
-              Start An <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">Online Business</span> Today
-              {/* <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-400 to-indigo-300">Business Growth</span> */}
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:mb-6 mb-4 py-8">
+              Start An Online Business Today
             </h1>
 
             <div className="text-md text-gray-500">
@@ -29,32 +23,31 @@ export default function HeroSection() {
               </p>
             </div>
 
-            {/* <div className="flex justify-center sm:justify-start mt-6">
-              <Link
-                href="https://calendly.com/stanford-s"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto"
-              >
-                <Button
-                  variant="default"
-                  className="px-5 sm:px-7 py-8 hover:bg-blue-400 cursor-pointer bg-indigo-400 text-white font-medium text-sm md:text-xl tracking-wide btn-cta group w-full"
-                >
-                  <span className="flex items-center justify-center gap-3 btn-content">
-
-                    <CalendarRange />
-
-                    <span className="whitespace-nowrap text-lg md:text-xl">Get a Free Consultation Now</span>
-                  </span>
-                </Button>
-              </Link>
-            </div> */}
           </div>
 
+
+
           {/* Right side - Video and what to expect */}
-          <div className="animate-slide-in-right flex justify-center items-center w-full hero-image order-2">
-            {/* Video container */}
-            {/* <div className="bg-gradient-to-r from-[#3399ff] to-accent rounded-2xl blur opacity-30"></div> */}
+          <div className="animate-slide-in-right flex justify-center items-center w-full hero-image order-2 gap-6 flex-col ">
+
+            {/* <div className='bg-black text-white rounded-lg p-2 text-center max-w-5xl w-full font-medium'>
+              Select the page language from
+            </div> */}
+
+            <div className="bg-black text-white px-4 py-2 flex flex-wrap items-center justify-center gap-2 w-full max-w-5xl text-sm sm:text-base rounded-md">
+              <span className="text-green-500">✅</span>
+              <span>Select the</span>
+              <span className="text-blue-500 font-semibold">Page Language</span>
+              <span>from</span>
+              <span>'🌐'</span>
+              <span>& choose the</span>
+              <span className="text-orange-400 font-semibold">Video's Audio Language</span>
+              <span>from</span>
+              <span>'⚙️'</span>
+              <span className="text-green-500">✅</span>
+            </div>
+
+
 
             <div className="max-w-5xl bg-background rounded-2xl overflow-hidden shadow-xl">
 

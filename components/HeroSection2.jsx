@@ -16,8 +16,8 @@ export default function HeroSection2() {
             </span> */}
 
 
-            <h1 className="text-3xl text-gray-700 md:text-5xl font-bold mb-6">
-              Meet Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">AI-Powered</span>  Vehicle For Success
+            <h1 className="text-3xl text-black md:text-4xl font-bold mb-6">
+              Meet Your AI-Powered Vehicle For Success
               {/* <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-400 to-indigo-300">Business Growth</span> */}
             </h1>
 

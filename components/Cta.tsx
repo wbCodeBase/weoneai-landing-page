@@ -12,9 +12,9 @@ export default function Cta() {
 
         <div className="my-12 py-16 border bg-gray-800 border-gray-800 p-8 rounded-2xl text-center md:text-left flex flex-col justify-center items-center gap-8">
 
-          <span className="inline-block text-sm font-medium px-4 py-2 bg-gradient-to-r from-blue-50 via-blue-100 to-white text-blue-500 rounded-full">
+          {/* <span className="inline-block text-sm font-medium px-4 py-2 bg-gradient-to-r from-blue-50 via-blue-100 to-white text-blue-500 rounded-full">
             Business Growth Expert
-          </span>
+          </span> */}
 
           <div className='text-center'>
             <h3 className="text-xl md:text-5xl font-bold mb-6 text-white">Ready to Accelerate Your <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-blue-200'> Business Growth? </span></h3>
@@ -23,7 +23,7 @@ export default function Cta() {
 
 
           <Link
-            href="https://calendly.com/stanford-s">
+            href="#">
             <Button
               variant="default"
               className="px-5 sm:px-7 py-6 md:py-7 cursor-pointer hover:bg-blue-400 bg-blue-400 text-white text-sm md:text-base btn-cta"

@@ -149,13 +149,15 @@ export default function GetYourApp() {
   return (
     <section className="py-16 md:py24 bg-white">
       <div className="container mx-auto px-6 md:px-8 max-w-[1180px]">
-        <div className="text-center max-w-3xl mx-auto mb-16 reveal">
-          <span className="inline-block text-sm font-medium px-4 py-2 bg-[#3399ff]/5 text-[#3399ff] border border-[#3399ff] rounded-full mb-4">
+        <div className="text-center max-w-5xl mx-auto mb-16 reveal">
+          {/* <span className="inline-block text-sm font-medium px-4 py-2 bg-[#3399ff]/5 text-[#3399ff] border border-[#3399ff] rounded-full mb-4">
             Launch your app
-          </span>
-          <h2 className="text-3xl text-gray-700 md:text-5xl font-bold mb-6">
-            Get Your Own App Running in Less Than <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] to-[#3399ff]/60">24 Hours</span>
+          </span> */}
+          
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 leading-snug md:leading-tight tracking-wide">
+            Get Your Own App Running in Less Than 24 Hours
           </h2>
+
           {/* <p className="text-gray-500 text-lg">
             Don&apos;t just take our word for it - hear from businesses we&apos;ve helped
           </p> */}
@@ -209,8 +211,8 @@ export function MaxiSuccess() {
           {/* <span className="inline-block text-sm font-medium px-4 py-2 bg-[#3399ff]/5 text-[#3399ff] border border-[#3399ff] rounded-full mb-4">
             Launch your app
           </span> */}
-          <h2 className="text-3xl text-gray-700 md:text-5xl font-bold mb-6">
-            Maximize Your Success With <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3399ff] to-[#3399ff]/60">Our Support</span>
+          <h2 className="text-3xl md:text-4xl font-black mb-6 tracking-wide ">
+            Maximize Your Success With Our Support
           </h2>
           {/* <p className="text-gray-500 text-lg">
             Don&apos;t just take our word for it - hear from businesses we&apos;ve helped
@@ -253,7 +255,7 @@ export function EarnMoney() {
       ctatext: "Start Crafting Your Revenue Flow",
       icon: <Receipt className='h-12 w-12' />,
     },
-    
+
 
   ];
 
